@@ -1,9 +1,10 @@
 import './App.scss';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import { MiApi } from './MiApi/MiApi';
 import { Footer } from './Footer/Footer';
 import { Dashboard } from './Dashboard/Dashboard';
+import { Filter } from './Filter/Filter';
+import { ScrollUp } from './ScrollUp/ScrollUp';
 
 function App() {
   const [types, setTypes] = useState([
@@ -45,31 +46,19 @@ function App() {
     <div className='container-fluid'>
       <div className='container'>
         <img src={process.env.PUBLIC_URL + '/img/pokeapi.png'} alt='Logo Poke API' />
-        <div className='menu'>
-          <div className='input-wraper'>
-            <label htmlFor='pokeOption'>Select an option:</label>
-            <select
-              name='pokeOption'
-              id='pokeOption'
-              onChange={(event) => setOptionSelected(event.target.value)}
-              value={optionSelected}>
-              <MiApi types={types} setTypes={setTypes} />
-            </select>
-          </div>
-          <div className='input-wraper'>
-            <label htmlFor='pokeOrder'>Sort by:</label>
-            <select name='pokeOrder' id='pokeOrder' onChange={(event) => setOrder(event.target.value)} value={order}>
-              <option value='Lowest Number (Frst)'>Lowest Number (Frst)</option>
-              <option value='Highest Number (First)'>Highest Number (First)</option>
-              <option value='A-Z'>A-Z</option>
-              <option value='Z-A'>Z-A</option>
-            </select>
-          </div>
-        </div>
+        <Filter
+          optionSelected={optionSelected}
+          setOptionSelected={setOptionSelected}
+          types={types}
+          setTypes={setTypes}
+          order={order}
+          setOrder={setOrder}
+        />
       </div>
 
       <Dashboard pokemons={pokemons} />
       <Footer />
+      <ScrollUp />
     </div>
   );
 }
