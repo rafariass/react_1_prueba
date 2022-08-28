@@ -8,6 +8,8 @@ export const MiApi = ({ types, setTypes }) => {
     setTypes([...types, ...results]);
   };
 
+  const capitalize = ([initial, ...rest]) => [initial.toUpperCase(), ...rest].join('');
+
   useEffect(() => {
     getTypePokemons();
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -16,7 +18,7 @@ export const MiApi = ({ types, setTypes }) => {
   const options = () => {
     return types.map((t) => (
       <option value={t.url} key={t.name}>
-        {t.name}
+        {capitalize(t.name)}
       </option>
     ));
   };
