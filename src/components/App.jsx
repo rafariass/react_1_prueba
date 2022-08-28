@@ -12,7 +12,7 @@ function App() {
 
   const [optionSelected, setOptionSelected] = useState(types[0].url);
   const [pokemons, setPokemons] = useState([]);
-  const [order, setOrder] = useState('false');
+  const [order, setOrder] = useState('Lowest Number (Frst)');
 
   const getData = async (url) => {
     const { data } = await axios.get(url);
@@ -28,9 +28,10 @@ function App() {
         : data.pokemon.map(({ pokemon: { url } }) => getData(url))
     );
 
-    order === 'true'
-      ? infoPokemons.sort((a, b) => (a.name.toUpperCase() < b.name.toUpperCase() ? -1 : 1))
-      : infoPokemons.sort((a, b) => a.id - b.id);
+    if (order === 'Lowest Number (Frst)') infoPokemons.sort((a, b) => a.id - b.id);
+    else if (order === 'Highest Number (First)') infoPokemons.sort((a, b) => b.id - a.id);
+    else if (order === 'A-Z') infoPokemons.sort((a, b) => (a.name.toUpperCase() < b.name.toUpperCase() ? -1 : 1));
+    else if (order === 'Z-A') infoPokemons.sort((a, b) => (a.name.toUpperCase() > b.name.toUpperCase() ? -1 : 1));
 
     setPokemons(infoPokemons);
   };
@@ -58,15 +59,10 @@ function App() {
           <div className='input-wraper'>
             <label htmlFor='pokeOrder'>Sort by:</label>
             <select name='pokeOrder' id='pokeOrder' onChange={(event) => setOrder(event.target.value)} value={order}>
-              <option value='false'>In number order</option>
-              <option value='true'>In alphabetical order</option>
-
-{/* Lowest Number (Frst)
-Highest Number (First)
-A-Z
-Z-A */}
-
-
+              <option value='Lowest Number (Frst)'>Lowest Number (Frst)</option>
+              <option value='Highest Number (First)'>Highest Number (First)</option>
+              <option value='A-Z'>A-Z</option>
+              <option value='Z-A'>Z-A</option>
             </select>
           </div>
         </div>
