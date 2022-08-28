@@ -16,7 +16,7 @@
     user-select: none;
     width: 200px;
     padding: 0;
-    border: 1px solid #000;
+    border: .5px solid rgba(0, 0, 0, 0.5);
     border-radius: 8px;
     background-color: #f2f2f2;
     text-align: center;
@@ -28,7 +28,7 @@
 
     &:hover {
       outline: 0;
-      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+      box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.5);
       transform: scale(103%);
       transition: 0.5s;
     }
