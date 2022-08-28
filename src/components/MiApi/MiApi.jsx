@@ -4,12 +4,12 @@ import { useEffect } from 'react';
 export const MiApi = ({ types, setTypes }) => {
   const getTypePokemons = async () => {
     const { data } = await axios.get('https://pokeapi.co/api/v2/type');
-    setTypes(data.results);
+    setTypes([...types, ...data.results.slice(0, -2)]);
   };
 
   useEffect(() => {
-    console.log('1');
     getTypePokemons();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const options = () => {
