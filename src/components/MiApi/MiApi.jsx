@@ -4,7 +4,8 @@ import { useEffect } from 'react';
 export const MiApi = ({ types, setTypes }) => {
   const getTypePokemons = async () => {
     const { data } = await axios.get('https://pokeapi.co/api/v2/type');
-    setTypes([...types, ...data.results.slice(0, -2)]);
+    const results = data.results.slice(0, -2).sort((a, b) => (a.name.toUpperCase() < b.name.toUpperCase() ? -1 : 1));
+    setTypes([...types, ...results]);
   };
 
   useEffect(() => {

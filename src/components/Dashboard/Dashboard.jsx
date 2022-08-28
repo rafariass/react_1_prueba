@@ -1,4 +1,5 @@
 import './Dashboard.scss';
+import {baseColors} from './baseColors';
 
 export const Dashboard = ({ pokemons }) => {
   return (
@@ -22,7 +23,11 @@ export const Dashboard = ({ pokemons }) => {
               </div>
               <div className='card-body__types'>
                 {p.types.map((t) => {
-                  return <span key={t.type.name}>{t.type.name}</span>;
+                  return (
+                    <span key={t.type.name} style={baseColors[t.type.name]}>
+                      {t.type.name}
+                    </span>
+                  );
                 })}
               </div>
             </div>

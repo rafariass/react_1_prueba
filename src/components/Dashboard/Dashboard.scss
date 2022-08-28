@@ -39,6 +39,7 @@
       &__text {
         text-align: left;
         padding-left: 25px;
+        padding-right: 25px;
 
         p {
           color: #313131;
@@ -67,9 +68,10 @@
         gap: 10px;
 
         span {
+          min-width: 70px;
           padding: 5px 10px;
           margin: 0;
-          font-size: 12px;
+          font-size: 10px;
           text-transform: uppercase;
           border: 0.5px solid #0000007e;
           border-radius: 8px;

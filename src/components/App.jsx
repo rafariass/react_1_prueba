@@ -5,6 +5,7 @@ import { Footer } from './Footer/Footer';
 import { Dashboard } from './Dashboard/Dashboard';
 import { Filter } from './Filter/Filter';
 import { ScrollUp } from './ScrollUp/ScrollUp';
+import { Loading } from './Loading/Loading';
 
 function App() {
   const [types, setTypes] = useState([
@@ -14,6 +15,7 @@ function App() {
   const [optionSelected, setOptionSelected] = useState(types[0].url);
   const [pokemons, setPokemons] = useState([]);
   const [order, setOrder] = useState('Lowest Number (Frst)');
+  const [modalState, setModalState] = useState(false);
 
   const getData = async (url) => {
     const { data } = await axios.get(url);
@@ -21,6 +23,7 @@ function App() {
   };
 
   const getDataPokemons = async () => {
+    setModalState(true);
     const data = await getData(optionSelected);
 
     const infoPokemons = await Promise.all(
@@ -35,6 +38,7 @@ function App() {
     else if (order === 'Z-A') infoPokemons.sort((a, b) => (a.name.toUpperCase() > b.name.toUpperCase() ? -1 : 1));
 
     setPokemons(infoPokemons);
+    setTimeout(() => { setModalState(false)}, 800);
   };
 
   useEffect(() => {
@@ -59,6 +63,7 @@ function App() {
       <Dashboard pokemons={pokemons} />
       <Footer />
       <ScrollUp />
+      {modalState ? <Loading /> : ''}
     </div>
   );
 }
