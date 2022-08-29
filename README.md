@@ -72,7 +72,7 @@ Profesional comprometido y con experiencia en las áreas de gestión y planifica
 
 ## 🔗 Links
 
-[![portfolio](https://img.shields.io/badge/Mi_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://rafariass.github.io/rafariass/)
+[![portfolio](https://img.shields.io/badge/Mi_portfolio-00365a?style=for-the-badge&logo=javascript&logoColor=white)](https://rafariass.github.io/rafariass/)
 [![linkedin](https://img.shields.io/badge/Linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafariass2/)
 [![github](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rafariass/)
 
