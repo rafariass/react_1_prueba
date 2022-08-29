@@ -38,13 +38,31 @@ function App() {
     else if (order === 'Z-A') infoPokemons.sort((a, b) => (a.name.toUpperCase() > b.name.toUpperCase() ? -1 : 1));
 
     setPokemons(infoPokemons);
-    setTimeout(() => { setModalState(false)}, 800);
+    setTimeout(() => {
+      setModalState(false);
+    }, 800);
   };
 
   useEffect(() => {
     getDataPokemons();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [optionSelected, order]);
+  }, [optionSelected]);
+
+  useEffect(() => {
+    setModalState(true);
+    const infoPokemons = structuredClone(pokemons);
+
+    if (order === 'Lowest Number (Frst)') infoPokemons.sort((a, b) => a.id - b.id);
+    else if (order === 'Highest Number (First)') infoPokemons.sort((a, b) => b.id - a.id);
+    else if (order === 'A-Z') infoPokemons.sort((a, b) => (a.name.toUpperCase() < b.name.toUpperCase() ? -1 : 1));
+    else if (order === 'Z-A') infoPokemons.sort((a, b) => (a.name.toUpperCase() > b.name.toUpperCase() ? -1 : 1));
+
+    setPokemons(infoPokemons);
+    setTimeout(() => {
+      setModalState(false);
+    }, 500);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [order]);
 
   return (
     <div className='container-fluid'>
