@@ -7,6 +7,11 @@
   width: 64px;
   aspect-ratio: 1 / 1;
   background: center / cover no-repeat url(../../../public/img/egg_up.png);
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  user-select: none;
+  -webkit-user-drag: none;
   z-index: 10;
   transition: 0.5s;
   cursor: url(../../../public/img/pikachu.cur), pointer;
