@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Poke Gallery
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto responde a la Prueba de React I, asociada al Modulo React I en el bootcamp Front End en React impartido por Desafio Latam.
 
-## Available Scripts
+## FAQ
 
-In the project directory, you can run:
+#### Donde encuentro el video asociado a la Prueba del modulo de React I
 
-### `yarn start`
+```
+  https://
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Autores
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [@rafariass](https://github.com/rafariass)
 
-### `yarn test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Puede intalar la Poke Gallery mediante Yarn
 
-### `yarn build`
+```bash
+  yarn install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deployment
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para implementar este proyecto, ejecute:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  yarn start
+```
 
-### `yarn eject`
+Tambien puedes visitar el deployment de la Poke Gallery realizado mediante [Netlify](https://netlify.app/).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+https://poke-gallery.netlify.app/
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Pokemon Type - Color Reference
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+| Type     | Background / Color                                                          | Hex               |
+| -------- | --------------------------------------------------------------------------- | ----------------- |
+| Bug      | ![#739f40](https://via.placeholder.com/150x50/739f40/ffffff/?text=Bug)      | #739F40 / #FFFFFF |
+| Dark     | ![#707070](https://via.placeholder.com/150x50/707070/ffffff/?text=Dark)     | #707070 / #FFFFFF |
+| Dragon-1 | ![#54a4cf](https://via.placeholder.com/150x50/54a4cf/ffffff/?text=Dragon-1) | #54A4CF / #FFFFFF |
+| Dragon-2 | ![#f16e58](https://via.placeholder.com/150x50/f16e58/ffffff/?text=Dragon-2) | #F16E58 / #FFFFFF |
+| Electric | ![#eed535](https://via.placeholder.com/150x50/eed535/000000/?text=Electric) | #EED535 / #000000 |
+| Fairy    | ![#fcb9e9](https://via.placeholder.com/150x50/fcb9e9/000000/?text=Fairy)    | #FCB9E9 / #000000 |
+| Fighting | ![#d56724](https://via.placeholder.com/150x50/d56724/ffffff/?text=Fighting) | #D56724 / #FFFFFF |
+| Fire     | ![#fd7d25](https://via.placeholder.com/150x50/fd7d25/ffffff/?text=Fire)     | #FD7D25 / #FFFFFF |
+| Flying-1 | ![#3cc7ef](https://via.placeholder.com/150x50/3cc7ef/ffffff/?text=Flying-1) | #3CC7EF / #FFFFFF |
+| Flying-2 | ![#bcbab9](https://via.placeholder.com/150x50/bcbab9/ffffff/?text=Flying-2) | #BCBAB9 / #FFFFFF |
+| Ghost    | ![#7b62a3](https://via.placeholder.com/150x50/7b62a3/ffffff/?text=Ghost)    | #7B62A3 / #FFFFFF |
+| Grass    | ![#9bcb50](https://via.placeholder.com/150x50/9bcb50/000000/?text=Grass)    | #9BCB50 / #000000 |
+| Ground-1 | ![#f7de3f](https://via.placeholder.com/150x50/f7de3f/000000/?text=Ground-1) | #F7DE3F / #000000 |
+| Ground-2 | ![#ab9843](https://via.placeholder.com/150x50/ab9843/000000/?text=Ground-2) | #AB9843 / #000000 |
+| Ice      | ![#51c3e7](https://via.placeholder.com/150x50/51c3e7/ffffff/?text=Ice)      | #51C3E7 / #FFFFFF |
+| Normal   | ![#a3acaf](https://via.placeholder.com/150x50/a3acaf/ffffff/?text=Normal)   | #A3ACAF / #FFFFFF |
+| Poison   | ![#b97fc8](https://via.placeholder.com/150x50/b97fc8/ffffff/?text=Poison)   | #B97FC8 / #FFFFFF |
+| Psychic  | ![#f366b9](https://via.placeholder.com/150x50/f366b9/ffffff/?text=Psychic)  | #F366B9 / #FFFFFF |
+| Rock     | ![#a38c22](https://via.placeholder.com/150x50/a38c22/ffffff/?text=Rock)     | #A38C22 / #FFFFFF |
+| Steel    | ![#9eb7b7](https://via.placeholder.com/150x50/9eb7b7/ffffff/?text=Steel)    | #9EB7B7 / #FFFFFF |
+| Water    | ![#4592c3](https://via.placeholder.com/150x50/4592c3/ffffff/?text=Water)    | #4592C3 / #FFFFFF |
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀 Sobre mí
 
-## Learn More
+Full Stack JavaScript Developer | Ing. en Informática | Scrum Master & PO | Admin. de Sistemas | Tec. en telecomunicaciones con mención en conectividad y redes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Profesional comprometido y con experiencia en las áreas de gestión y planificación de proyectos IT, con ganas de aprender y de enfrentar nuevos desafíos.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Logo](https://rafariass.github.io/rafariass/assets/img/logo.png)
 
-### Code Splitting
+## 🔗 Links
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[![portfolio](https://img.shields.io/badge/Mi_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://rafariass.github.io/rafariass/)
+[![linkedin](https://img.shields.io/badge/Linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafariass2/)
+[![github](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rafariass/)
 
-### Analyzing the Bundle Size
+## Feedback
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Si tiene algún comentario, comuníquese con nosotros en ra.farias.s@outlook.com
 
-### Making a Progressive Web App
+## Soporte
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Para obtener asistencia, envíe un correo electrónico a ra.farias.s@outlook.com
