@@ -38,29 +38,29 @@ https://poke-gallery.netlify.app/
 
 ## Pokemon Type - Color Reference
 
-| Type     | Background / Color                                                          | Hex               |
-| -------- | --------------------------------------------------------------------------- | ----------------- |
-| Bug      | ![#739f40](https://via.placeholder.com/150x50/739f40/ffffff/?text=Bug)      | #739F40 / #FFFFFF |
-| Dark     | ![#707070](https://via.placeholder.com/150x50/707070/ffffff/?text=Dark)     | #707070 / #FFFFFF |
-| Dragon-1 | ![#54a4cf](https://via.placeholder.com/150x50/54a4cf/ffffff/?text=Dragon-1) | #54A4CF / #FFFFFF |
-| Dragon-2 | ![#f16e58](https://via.placeholder.com/150x50/f16e58/ffffff/?text=Dragon-2) | #F16E58 / #FFFFFF |
-| Electric | ![#eed535](https://via.placeholder.com/150x50/eed535/000000/?text=Electric) | #EED535 / #000000 |
-| Fairy    | ![#fcb9e9](https://via.placeholder.com/150x50/fcb9e9/000000/?text=Fairy)    | #FCB9E9 / #000000 |
-| Fighting | ![#d56724](https://via.placeholder.com/150x50/d56724/ffffff/?text=Fighting) | #D56724 / #FFFFFF |
-| Fire     | ![#fd7d25](https://via.placeholder.com/150x50/fd7d25/ffffff/?text=Fire)     | #FD7D25 / #FFFFFF |
-| Flying-1 | ![#3cc7ef](https://via.placeholder.com/150x50/3cc7ef/ffffff/?text=Flying-1) | #3CC7EF / #FFFFFF |
-| Flying-2 | ![#bcbab9](https://via.placeholder.com/150x50/bcbab9/ffffff/?text=Flying-2) | #BCBAB9 / #FFFFFF |
-| Ghost    | ![#7b62a3](https://via.placeholder.com/150x50/7b62a3/ffffff/?text=Ghost)    | #7B62A3 / #FFFFFF |
-| Grass    | ![#9bcb50](https://via.placeholder.com/150x50/9bcb50/000000/?text=Grass)    | #9BCB50 / #000000 |
-| Ground-1 | ![#f7de3f](https://via.placeholder.com/150x50/f7de3f/000000/?text=Ground-1) | #F7DE3F / #000000 |
-| Ground-2 | ![#ab9843](https://via.placeholder.com/150x50/ab9843/000000/?text=Ground-2) | #AB9843 / #000000 |
-| Ice      | ![#51c3e7](https://via.placeholder.com/150x50/51c3e7/ffffff/?text=Ice)      | #51C3E7 / #FFFFFF |
-| Normal   | ![#a3acaf](https://via.placeholder.com/150x50/a3acaf/ffffff/?text=Normal)   | #A3ACAF / #FFFFFF |
-| Poison   | ![#b97fc8](https://via.placeholder.com/150x50/b97fc8/ffffff/?text=Poison)   | #B97FC8 / #FFFFFF |
-| Psychic  | ![#f366b9](https://via.placeholder.com/150x50/f366b9/ffffff/?text=Psychic)  | #F366B9 / #FFFFFF |
-| Rock     | ![#a38c22](https://via.placeholder.com/150x50/a38c22/ffffff/?text=Rock)     | #A38C22 / #FFFFFF |
-| Steel    | ![#9eb7b7](https://via.placeholder.com/150x50/9eb7b7/ffffff/?text=Steel)    | #9EB7B7 / #FFFFFF |
-| Water    | ![#4592c3](https://via.placeholder.com/150x50/4592c3/ffffff/?text=Water)    | #4592C3 / #FFFFFF |
+| Type              | Background / Color                                                             | Hex                   |
+| ----------------- | ------------------------------------------------------------------------------ | --------------------- |
+| Bug               | ![#739f40](https://via.placeholder.com/150x50/739f40/ffffff/?text=Bug)          | #739F40 / #FFFFFF    |
+| Dark              | ![#707070](https://via.placeholder.com/150x50/707070/ffffff/?text=Dark)         | #707070 / #FFFFFF    |
+| Dragon-1          | ![#54a4cf](https://via.placeholder.com/150x50/54a4cf/ffffff/?text=Dragon-1)     | #54A4CF / #FFFFFF    |
+| Dragon-2          | ![#f16e58](https://via.placeholder.com/150x50/f16e58/ffffff/?text=Dragon-2)     | #F16E58 / #FFFFFF    |
+| Electric          | ![#eed535](https://via.placeholder.com/150x50/eed535/000000/?text=Electric)     | #EED535 / #000000    |
+| Fairy             | ![#fcb9e9](https://via.placeholder.com/150x50/fcb9e9/000000/?text=Fairy)        | #FCB9E9 / #000000    |
+| Fighting          | ![#d56724](https://via.placeholder.com/150x50/d56724/ffffff/?text=Fighting)     | #D56724 / #FFFFFF    |
+| Fire              | ![#fd7d25](https://via.placeholder.com/150x50/fd7d25/ffffff/?text=Fire)         | #FD7D25 / #FFFFFF    |
+| Flying-1          | ![#3cc7ef](https://via.placeholder.com/150x50/3cc7ef/ffffff/?text=Flying-1)     | #3CC7EF / #FFFFFF    |
+| Flying-2          | ![#bcbab9](https://via.placeholder.com/150x50/bcbab9/ffffff/?text=Flying-2)     | #BCBAB9 / #FFFFFF    |
+| Ghost             | ![#7b62a3](https://via.placeholder.com/150x50/7b62a3/ffffff/?text=Ghost)        | #7B62A3 / #FFFFFF    |
+| Grass             | ![#9bcb50](https://via.placeholder.com/150x50/9bcb50/000000/?text=Grass)        | #9BCB50 / #000000    |
+| Ground-1          | ![#f7de3f](https://via.placeholder.com/150x50/f7de3f/000000/?text=Ground-1)     | #F7DE3F / #000000    |
+| Ground-2          | ![#ab9843](https://via.placeholder.com/150x50/ab9843/000000/?text=Ground-2)     | #AB9843 / #000000    |
+| Ice               | ![#51c3e7](https://via.placeholder.com/150x50/51c3e7/ffffff/?text=Ice)          | #51C3E7 / #FFFFFF    |
+| Normal            | ![#a3acaf](https://via.placeholder.com/150x50/a3acaf/ffffff/?text=Normal)       | #A3ACAF / #FFFFFF    |
+| Poison            | ![#b97fc8](https://via.placeholder.com/150x50/b97fc8/ffffff/?text=Poison)       | #B97FC8 / #FFFFFF    |
+| Psychic           | ![#f366b9](https://via.placeholder.com/150x50/f366b9/ffffff/?text=Psychic)      | #F366B9 / #FFFFFF    |
+| Rock              | ![#a38c22](https://via.placeholder.com/150x50/a38c22/ffffff/?text=Rock)         | #A38C22 / #FFFFFF    |
+| Steel             | ![#9eb7b7](https://via.placeholder.com/150x50/9eb7b7/ffffff/?text=Steel)        | #9EB7B7 / #FFFFFF    |
+| Water             | ![#4592c3](https://via.placeholder.com/150x50/4592c3/ffffff/?text=Water)        | #4592C3 / #FFFFFF    |
 
 ## 🚀 Sobre mí
 
