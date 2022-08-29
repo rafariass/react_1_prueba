@@ -9,7 +9,7 @@
   background: center / cover no-repeat url(../../../public/img/egg_up.png);
   z-index: 10;
   transition: 0.5s;
-  cursor: pointer;
+  cursor: url(../../../public/img/pikachu.cur), pointer;
   filter: drop-shadow(1px 1px 0 #fff) drop-shadow(-1px 1px 0 #fff) drop-shadow(1px -1px 0 #fff)
     drop-shadow(-1px -1px 0 #fff);
 
