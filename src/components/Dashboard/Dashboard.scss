@@ -32,6 +32,11 @@
       transform: scale(103%);
       transition: 0.5s;
       cursor: url(../../../public/img/pokeball.cur), pointer;
+
+      > img {
+        transition: .5s;
+        transform: scale(125%);
+      }
     }
 
     .card-body {
@@ -84,6 +89,7 @@
       padding: 5px;
       border-radius: 8px 8px 0 0;
       border: none;
+      transition: .5s;
       filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
     }
   }

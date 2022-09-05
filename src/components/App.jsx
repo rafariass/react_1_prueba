@@ -81,7 +81,7 @@ function App() {
       <Dashboard pokemons={pokemons} />
       <Footer />
       <ScrollUp />
-      {modalState ? <Loading /> : ''}
+      {modalState && <Loading />}
     </div>
   );
 }
